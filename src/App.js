@@ -36,18 +36,22 @@ class App extends React.Component {
         <Switch>
           <Route
             exact
-            path="/"
+            path="sd-023-b-project-trybetunes/"
             render={ (param) => (<Login
               { ...param }
               loginName={ loginName }
               handleChange={ this.handleChange }
             />) }
           />
-          <Route path="/search" component={ Search } />
-          <Route path="/album/:id" component={ Album } />
-          <Route path="/favorites" component={ Favorites } />
-          <Route exact path="/profile/edit" component={ ProfileEdit } />
-          <Route path="/profile" component={ Profile } />
+          <Route path="sd-023-b-project-trybetunes/search" component={ Search } />
+          <Route path="sd-023-b-project-trybetunes/album/:id" component={ Album } />
+          <Route path="sd-023-b-project-trybetunes/favorites" component={ Favorites } />
+          <Route
+            exact
+            path="sd-023-b-project-trybetunes/profile/edit"
+            component={ ProfileEdit }
+          />
+          <Route path="sd-023-b-project-trybetunes/profile" component={ Profile } />
           <Route path="*" component={ NotFound } />
         </Switch>
       </div>
