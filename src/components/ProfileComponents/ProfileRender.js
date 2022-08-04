@@ -38,7 +38,7 @@ class ProfileRender extends React.Component {
         <div className="div-btn">
           <button type="button" className="profile-button">
             <Link
-              to="/profile/edit"
+              to="/sd-023-b-project-trybetunes/profile/edit"
               style={ { textDecoration: 'none', color: 'black' } }
             >
               Editar perfil

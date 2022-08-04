@@ -44,7 +44,7 @@ class Header extends React.Component {
           <div className="linksOnHeader">
             <Link
               style={ { textDecoration: 'none', color: 'white' } }
-              to="/search"
+              to="/sd-023-b-project-trybetunes/search"
               data-testid="link-to-search"
             >
               <h3>
@@ -55,7 +55,7 @@ class Header extends React.Component {
           <div className="linksOnHeader">
             <Link
               style={ { textDecoration: 'none', color: 'white' } }
-              to="/favorites"
+              to="/sd-023-b-project-trybetunes/favorites"
               data-testid="link-to-favorites"
             >
               <h3>
@@ -66,7 +66,7 @@ class Header extends React.Component {
           <div className="linksOnHeader">
             <Link
               style={ { textDecoration: 'none', color: 'white' } }
-              to="/profile"
+              to="/sd-023-b-project-trybetunes/profile"
               data-testid="link-to-profile"
             >
               <h3>

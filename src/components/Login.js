@@ -30,7 +30,7 @@ class Login extends React.Component {
     const { loginName, handleChange } = this.props;
     return (
       <div>
-        { getUserValidation && <Redirect to="/search" />}
+        { getUserValidation && <Redirect to="/sd-023-b-project-trybetunes/search" />}
         { loading ? <Carregando /> : <PreLogin
           loginName={ loginName }
           handleChange={ handleChange }
