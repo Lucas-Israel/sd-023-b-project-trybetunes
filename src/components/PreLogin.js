@@ -19,6 +19,7 @@ class PreLogin extends React.Component {
               name="loginName"
               value={ loginName }
               onChange={ handleChange }
+              placeholder="Nome de usuario"
             />
           </label>
           {' '}
@@ -29,7 +30,6 @@ class PreLogin extends React.Component {
             onClick={ () => funcCreateUser(loginName) }
           >
             Entrar
-
           </button>
         </div>
       </div>
