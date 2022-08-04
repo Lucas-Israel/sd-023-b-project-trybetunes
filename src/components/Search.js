@@ -80,7 +80,7 @@ class Search extends React.Component {
                 <div className="searchedDiv" key={ artistName + index }>
                   <img className="searchImg" src={ artworkUrl100 } alt={ artistNameS } />
                   <Link
-                    to={ `/album/${collectionId}` }
+                    to={ `/sd-023-b-project-trybetunes/album/${collectionId}` }
                     data-testid={ `link-to-album-${collectionId}` }
                   >
                     {collectionName}

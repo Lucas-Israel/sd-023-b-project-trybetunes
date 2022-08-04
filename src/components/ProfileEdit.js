@@ -51,7 +51,7 @@ class ProfileEdit extends React.Component {
       <div data-testid="page-profile-edit">
         <Header />
         <div className="page">
-          {redirect && <Redirect to="/profile" />}
+          {redirect && <Redirect to="/sd-023-b-project-trybetunes/profile" />}
           {loading ? <Carregando /> : <ProfileEditComponent
             description={ description }
             email={ email }
